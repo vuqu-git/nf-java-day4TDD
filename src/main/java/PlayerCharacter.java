@@ -26,7 +26,12 @@ public class PlayerCharacter {
             case "D":  x = x + 1; break;
             case "A":  x = x - 1; break;
         }
+    }
 
+    public static void moveALot(String[] keystrokes) {
+        for(String keystroke : keystrokes) {
+            PlayerCharacter.move(keystroke);
+        }
 
     }
 }
