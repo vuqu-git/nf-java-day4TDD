@@ -4,4 +4,14 @@ public class PlayerCharacter {
         return 0;
     }
 
+    public static int getY() {
+        return 0;
+    }
+
+    public static int move(String keystroke) {
+//        if (keystroke == "W")
+            return 1;
+
+
+    }
 }
