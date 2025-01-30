@@ -37,7 +37,7 @@ public class PlayerCharacterTest {
     }
 
     @Test
-    void expect1_when_initial_invoking_move_withW() {
+    void expect01_when_initial_invoking_move_withW() {
         // GIVEN
         String keystroke = "W";
 
@@ -56,7 +56,7 @@ public class PlayerCharacterTest {
     }
 
     @Test
-    void expect1_when_initial_invoking_move_withSAAD() {
+    void expectm1m1_when_initial_invoking_move_withSAAD() {
         // GIVEN
         String[] keystrokes = {"S", "A", "A", "D"};
 
